@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237" height="34" viewBox="0 0 237 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #373737;
+        font-size: 30px;
+        font-family: Ubuntu-Bold, Ubuntu;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Featured_Brands" data-name="Featured Brands" class="cls-1" transform="translate(0 28)"><tspan x="0" y="0">Featured Brands</tspan></text>
+</svg>

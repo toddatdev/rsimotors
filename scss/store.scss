@@ -1,0 +1,276 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+// Variables
+@import 'variables';
+
+
+:root {
+  --star-size: 16px;
+  --star-color: #fff;
+  --star-background: #ff9529;
+}
+
+#store {
+
+
+  .filter-tab {
+    label {
+      font-family: $font-family-ubuntu;
+      color: $secondary;
+      font-weight: 500;
+    }
+
+    .narrow-result {
+      font-family: $font-family-ubuntu;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .search-filter {
+      border-bottom: 1px solid rgba(0, 0, 0, .125)
+
+    }
+
+    .filter-category-select {
+
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+
+      .card-header {
+        background-color: transparent;
+        font-family: $font-family-ubuntu;
+        font-size: 17px;
+        font-weight: bold;
+      }
+
+      .scrollable {
+        max-height: 200px;
+        overflow-y: scroll;
+        padding: 0px;
+
+        li {
+          padding: 4px 2px 4px 15px;
+
+          input[type="checkbox"] {
+            vertical-align: middle;
+          }
+
+        }
+      }
+
+      #style-3::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #d9d9d9;
+      }
+
+      #style-3::-webkit-scrollbar {
+        width: 2px;
+        background-color: #d9d9d9;
+      }
+
+      #style-3::-webkit-scrollbar-thumb {
+        background-color: $primary;
+      }
+
+
+      .filter-title {
+        font-family: $font-family-montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.43em;
+        letter-spacing: -0.2px;
+        color: $secondary;
+        margin-left: 5px;
+      }
+
+      .filter-total {
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.6em;
+        letter-spacing: 0.025em;
+        color: $secondary;
+      }
+    }
+
+    .price-range {
+
+      .divided {
+        background: linear-gradient(transparent 51%, #ced4da 50%, #ced4da 55%, transparent 55%);
+        display: flex;
+      }
+
+      .divided input {
+        background: white;
+        padding: 0 5px;
+      }
+
+      .divided input:last-of-type {
+
+      }
+    }
+
+    .minimum-rating {
+      .clip-star {
+        background: #ff9529;
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .filter-submit{
+      text-align: center;
+      input{
+        background-color: $primary;
+        padding: 15px 30%;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 13px;
+        color: #ffffff;
+      }
+    }
+
+
+  }
+
+  .products-tab {
+
+    .filter-title {
+      font-family: $font-family-ubuntu;
+      color: $secondary;
+      text-align: left;
+      font-size: 25px;
+
+      span {
+        font-size: 15px;
+        font-weight: normal;
+      }
+    }
+
+    .card {
+
+      .card-img-top {
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 200px;
+        max-height: 200px;
+        margin: auto;
+        position: relative;
+
+        img {
+          max-width: 100%;
+          padding: 15px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+      }
+
+
+    }
+
+    .card-body {
+      border-top: 1px solid #d9d9d9;
+      font-family: $font-family-montserrat;
+      padding: 1.25rem 1.25rem 0;
+
+      .p-title {
+        font-weight: bold;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+
+        a {
+          color: $secondary;
+          font-size: 15px;
+        }
+      }
+
+      .p-sub-title {
+        font-size: 13px;
+        font-family: $font-family-montserrat;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .discount-price {
+        color: #373737;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .price {
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      a.p-detail {
+        padding: 1px 10px;
+        border: 1px solid #fa0c1b;
+        border-radius: 5px;
+      }
+
+      i.fa.fa-arrow-right.rec-arrow {
+        background-color: #37373700 !important;
+        padding: 1px;
+        border-radius: 5px;
+        color: #373737 !important;
+      }
+
+    }
+
+
+    .Stars {
+      --percent: calc(var(--rating) / 5 * 100%);
+      display: inline-block;
+      font-size: var(--star-size);
+      //font-family: Times; // make sure ★ appears correctly
+      font-family: $font-family-ubuntu;
+      line-height: 1;
+      font-weight: 600;
+      color: $secondary;
+
+      span {
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      &::before {
+        content: '★★★★★';
+        background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .showmore {
+      background-color: $primary;
+      border: 1px solid #FA0C1B;
+      border-radius: 5px;
+      width: 170px;
+      height: 54px;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 576px) {
+    .card{
+      margin: 0 !important;
+    }
+  }
+}
+

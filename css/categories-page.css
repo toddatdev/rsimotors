@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+html, body, * {
+  padding: 0;
+  margin: 0; }
+
+p, span, a, button, div {
+  font-family: "Montserrat", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif; }
+
+#categories-page .single-catg {
+  min-height: 120px;
+  max-height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem; }
+#categories-page .single-catg:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.171), 0 6px 20px 0 rgba(0, 0, 0, 0.041);
+  background-image: url("../media/background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+#categories-page .catg-title a {
+  color: #373737;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+#categories-page .catg-title a:hover {
+  color: #fa0c1b; }
+#categories-page .catg-image {
+  max-height: 105px;
+  max-width: 120px; }
+#categories-page .single-catg:hover a {
+  color: #fa0c1b; }
+#categories-page .see-all-cate:hover .fa-arrow-right {
+  color: #fa0c1b; }
+#categories-page .see-all-cate:hover .see-all-heading {
+  color: #373737; }
+@media (max-width: 768px) {
+  #categories-page .single-catg {
+    margin: 0 !important; } }
+
+/*# sourceMappingURL=categories-page.css.map */

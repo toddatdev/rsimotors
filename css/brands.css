@@ -1,0 +1,78 @@
+.main {
+  max-width: 1000px;
+  margin: auto; }
+
+h1 {
+  font-size: 50px;
+  word-break: break-all; }
+
+.row {
+  margin: 10px -16px; }
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px; }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide all elements by default */ }
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px; }
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block; }
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600; }
+
+.btn:hover {
+  border-bottom: 2px solid #fa0c1b;
+  color: black;
+  border-radius: 0; }
+
+.btn.active {
+  border-bottom: 2px solid #fa0c1b;
+  font-weight: bold;
+  color: black;
+  border-radius: 0; }
+
+#myBtnContainer {
+  border-bottom: 1px solid #00000026; }
+
+.brand-img {
+  border: 1px solid #00000024;
+  border-radius: 5px;
+  padding: 40px 15px; }
+
+.brand-img img {
+  width: 90%; }
+
+.col.col-sm-6.col-md-3.brand-col {
+  margin: 15px 0; }
+
+.brand-inner-col h3 {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #373737; }
+
+/*# sourceMappingURL=brands.css.map */

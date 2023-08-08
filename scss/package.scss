@@ -1,0 +1,459 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+// Variables
+@import 'variables';
+
+section#package {
+  height: 300px;
+  background-color: #fffafa;
+}
+
+.package-cart-inner {
+  border: 1px solid #00000024;
+  border-radius: 5px;
+  padding: 35px 30px;
+  height: 270px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.container.package-container {
+  margin-top: -150px;
+}
+
+.package-cart-inner h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.package-cart-inner p {
+  font-size: 13px;
+}
+
+//.package-cart-inner img {
+//
+//
+//  width: 51%;
+//  height: 60%;
+//}
+
+.best-value img {
+  margin-right: 10px;
+}
+
+.package-cart-inner img {
+  max-width: 75px;
+  width: 100%;
+
+}
+
+section#packges-rate {
+  margin-top: 60px;
+}
+
+#packges-rate .title-heading-text {
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+.accordion .card-header:before {
+  float: right !important;
+  font-family: 'Font Awesome 5 Pro' !important;
+  content:"\f068";
+  float: right;
+}
+.accordion .card-header.collapsed:before {
+  float: right !important;
+  font-family: 'Font Awesome 5 Pro' !important;
+  content:"\f067";
+}
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus  {
+  text-decoration:none;
+}
+
+//.accordion .card-header.collapsed:before {
+//  /* symbol for "collapsed" panels */
+//  content: "\f068";
+//}
+
+.card-header.collapsed {
+  background-color: transparent;
+
+}
+
+.card-header.collapsed {
+  border:none;
+}
+.card.mb-0.accordian-card {
+  border: none;
+}
+.accordian-tab-border {
+  border: 1px solid #00000024;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.card-header{
+  background-color: transparent;
+  border-bottom: none;
+}
+
+
+
+
+#accordian a.card-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+h1.accordian-text {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section#accordian {
+  width: 50% !important;
+  margin: auto;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.toggle, .toggler {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  font-family: $font-family-ubuntu;
+
+}
+
+.toggler {
+  //color: #ddd;
+  color: $secondary;
+  transition: .2s;
+  font-weight: 500;
+}
+
+.toggler--is-active {
+  color: $secondary;
+  font-weight: 900;
+}
+
+.b {
+  display: block;
+}
+
+.toggle {
+  position: relative;
+  width: 33px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #fa0c1b17;
+  overflow: hidden;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+
+}
+
+.check {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 6;
+}
+
+.check:checked ~ .switch {
+  right: 2px;
+  left: 46.5%;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: .08s, 0s;
+}
+
+.switch {
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  bottom: 2px;
+  right: 42.5%;
+  background-color: #fa0c1b;
+  border-radius: 36px;
+  z-index: 1;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: 0s, .08s;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.02);
+}
+
+.pricing-section {
+  padding: 110px 0 80px 0;
+  //float: left;
+  width: 100%;
+  text-align: center;
+}
+
+
+.hide {
+  display: none;
+}
+
+//pricing css
+
+.price-cart {
+  border: 1px solid #00000024;
+  padding: 20px 10px;
+  //border-bottom-left-radius: 5px;
+  //border-bottom-right-radius: 5px;
+  border-radius: 5px;
+  margin-top: -1px;
+}
+
+.price-cart h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price-cart h3 {
+  font-size: 26px;
+  color: #fa0c1b;
+  font-weight: 900;
+  padding: 10px 0;
+  font-family: $font-family-ubuntu;
+
+}
+
+.price-cart span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #373737;
+}
+
+.pl-left.float-left {
+  font-size: 16px;
+  color: #373737;
+}
+
+.st-left.float-left {
+  font-size: 16px;
+  color: #373737;
+  margin: 10px 0;
+}
+
+.pl-right.float-right {
+  font-size: 16px;
+
+  font-weight: 600;
+}
+
+.st-right.float-right {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.price-cart button {
+  border: 1px solid #00000024;
+  padding: 10px 45px;
+  background-color: transparent;
+  color: #fa0c1b;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.best-value h2 {
+  background-color: #fa0c1b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin-bottom: 0;
+
+}
+
+.accordian-card {
+  margin-bottom: 20px;
+}
+
+.diamond {
+  margin-top: -1% !important;
+}
+.table-bordered td{
+
+  padding: 15px 0px 15px 10px;
+}
+
+///Media Query
+
+@media only screen and (max-width: 991px) and (min-width: 120px) {
+  .package-cart-inner {
+    margin: 20px 0;
+  }
+
+  .col-12.col-sm-6.col-md-6.col-lg-3.package-col {
+    margin: 20px 0;
+  }
+
+  section#accordian {
+    width: 100% !important;
+    margin: auto;
+    /* font-size: 16px; */
+  }
+  .card.mb-0.accordian-card {
+    margin-bottom: 20px;
+    margin-bottom: 30px !important;
+  }
+  .float-right {
+    float: none !important;
+  }
+  .float-left {
+    float: none !important;
+  }
+  .price-cart button {
+    padding: 10px 36px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  a.card-title {
+    font-size: 15px !important;
+    font-weight: 500;
+    color: #000000;
+  }
+  .pricing-section {
+    padding: 30px 0 30px 0;
+  }
+
+  h1.accordian-text{
+    font-size: 20px;
+  }
+  .package-container {
+    margin-top: -260px !important;
+  }
+  .package-container {
+    margin-top: -260px !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .pricing-section {
+    padding: 40px 0 50px 0;
+  }
+
+  h1.accordian-text{
+    font-size: 25px;
+  }
+
+  /* Force table to not be like tables anymore */
+  #no-more-tables table,
+  #no-more-tables thead,
+  #no-more-tables tbody,
+  #no-more-tables th,
+  #no-more-tables td,
+  #no-more-tables tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #no-more-tables thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #no-more-tables tr { border: 1px solid #ccc; }
+
+  #no-more-tables td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 20px ;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    white-space: normal;
+    text-align:left;
+  }
+  .table-bordered {
+
+    border: none !important;
+  }
+
+
+  #no-more-tables td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align:left;
+    font-weight: bold;
+  }
+
+  /*
+  Label the data
+  */
+  //#no-more-tables td:before { content: attr(data-title); }
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+  a.card-title {
+    font-size: 15px !important;
+    font-weight: 500;
+    color: #000000;
+  }
+  .pricing-section {
+    padding: 30px 0 30px 0;
+  }
+
+  h1.accordian-text{
+    font-size: 20px;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .package-cart-inner {
+    height: 300px;
+  }
+
+  h1.accordian-text{
+    font-size: 30px;
+  }
+}

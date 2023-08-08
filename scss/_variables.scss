@@ -1,0 +1,31 @@
+//top navbar
+$top-navabr-color:#373737;
+$primary:#373737;
+
+// Body
+html , body , *{
+  padding: 0;
+  margin: 0;
+
+
+}
+
+// Font family
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-family-ubuntu: 'Ubuntu', sans-serif;
+
+
+// Colors
+
+$primary: #fa0c1b;
+$secondary: #373737;
+
+// font family
+
+
+p,span,a,button,div{
+  font-family: $font-family-montserrat;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: $font-family-ubuntu;
+}

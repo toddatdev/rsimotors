@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Search" transform="translate(-338.286 -569.339)">
+    <path id="path" d="M338.286,569.339h30v30h-30Z" transform="translate(0 0)" fill="none"/>
+    <path id="path-2" data-name="path" d="M358.681,575.323a10.191,10.191,0,0,1,.412,13.975l.011.011,4.8,4.8a.6.6,0,1,1-.847.847l-4.8-4.8-.011-.011a10.19,10.19,0,1,1,.436-14.822Zm-13.564.847a8.992,8.992,0,1,0,12.716,0A8.993,8.993,0,0,0,345.118,576.171Z" transform="translate(0.6 0.6)" fill="#707070" fill-rule="evenodd"/>
+  </g>
+</svg>
